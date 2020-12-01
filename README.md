@@ -27,7 +27,7 @@ Please note:
 This module exports one function `vo2Max` accepting age, sex (Male or Female), and height (in cm) which returns a number denominated in L/min.
 
 ```
-import { vo2Peak } from '@automate-medical/jones1985';
+import { vo2Max } from '@automate-medical/jones1985';
 
 const predicted = vo2Max({ age: 30, sex: "Male", height: 165 });
 console.log(predicted);

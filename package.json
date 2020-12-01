@@ -1,6 +1,6 @@
 {
   "name": "@automate-medical/jones1984",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript implementation of the Jones (1985) equations for predicted VO2 max in cycle-ergometer exercise testing",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -17,7 +17,12 @@
     "url": "https://github.com/Automate-Medical/jones1984/issues"
   },
   "homepage": "https://github.com/Automate-Medical/jones1984#readme",
-  "keywords": ["medical", "lungs", "pulmonary", "cpet"],
+  "keywords": [
+    "medical",
+    "lungs",
+    "pulmonary",
+    "cpet"
+  ],
   "devDependencies": {
     "typescript": "^4.1.2"
   },
